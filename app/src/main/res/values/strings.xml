@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Simply Note</string>
+
+    <!-- Used in NavigationDrawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="add_label">Ajouter un libellé</string>
+    <string name="to_do">A faire</string>
+    <string name="important">Important</string>
+    <string name="labels">Libellés</string>
+    <string name="notes">Notes</string>
+    <string name="reminder">Rappels</string>
+    <string name="trash">Corbeille</string>
+    <string name="settings">Paramètres</string>
+    <string name="archives">Archives</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/activity_main_drawer_menu_label_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity_main_drawer_notes"
+            android:icon="@drawable/note"
+            android:title="@string/notes" />
+        <item
+            android:id="@+id/activity_main_drawer_alerts"
+            android:icon="@drawable/alert"
+            android:title="@string/reminder" />
+
+    </group>
+
+    <item android:title="@string/labels">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/activity_main_drawer_important"
+                    android:icon="@drawable/label"
+                    android:title="@string/important" />
+                <item
+                    android:id="@+id/activity_main_drawer_todo"
+                    android:icon="@drawable/label"
+                    android:title="@string/to_do" />
+                <item
+                    android:id="@+id/activity_main_drawer_addLabel"
+                    android:icon="@drawable/new_label"
+                    android:title="@string/add_label" />
+            </group>
+        </menu>
+    </item>
+
+    <item tools:ignore="MenuTitle">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/activity_main_drawer_archives"
+                    android:icon="@drawable/archive"
+                    android:title="@string/archives" />
+                <item
+                    android:id="@+id/activity_main_drawer_trash"
+                    android:icon="@drawable/delete"
+                    android:title="@string/trash" />
+                <item
+                    android:id="@+id/activity_main_drawer_settings"
+                    android:icon="@drawable/settings"
+                    android:title="@string/settings" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
